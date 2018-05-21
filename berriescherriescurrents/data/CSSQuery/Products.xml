@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queries>
+	<Element name="coreUrl" location="https://jsainsburyplc.github.io/serverside-test/site/www.sainsburys.co.uk/webapp/wcs/stores/servlet/gb/groceries" />
+	<Element name="coreUrlSuffix" location="/berries-cherries-currants6039.html" />
+	<Element name="pricePerUnitFromContainer" query="p.pricePerUnit" />
+	<Element name="productDescriptionArrayFromContainer" query="p" />
+	<Element name="productGrid" query="li.gridItem" />
+	<Element name="productKcal" query="table.nutritionTable > tbody > tr.tableRow0 > td" />
+	<Element name="productKcalAlternativeRouteTableRow" query="table.nutritionTable > tbody > tr" />
+	<Element name="productLinks" query="div.productNameAndPromotions > h3 > a" />
+	<Element name="productName" query="div.productTitleDescriptionContainer > h1" />
+	<Element name="productNameTextFromContainer" query="div.productText" />
+	<Element name="productUrl" location="https://jsainsburyplc.github.io/serverside-test/site/www.sainsburys.co.uk/shop/gb/groceries/berries-cherries-currants" />
+</Queries>
